@@ -1,6 +1,6 @@
 /* ---------- Design tokens ---------- */
 :root{
-  --paper: #F1EBE0;
+  --paper: #F4EDE0;
   --surface: #FBF8F2;
   --ink: #21252B;
   --ink-soft: #5B5A54;
@@ -68,6 +68,13 @@ a:focus-visible, button:focus-visible{
   font-size: 1.15rem;
   text-decoration: none;
   letter-spacing: 0.01em;
+  display:flex;
+  align-items:center;
+}
+.mark img{
+  height: 32px;
+  width: auto;
+  display:block;
 }
 .nav{ display:flex; gap: 28px; }
 .nav a{
